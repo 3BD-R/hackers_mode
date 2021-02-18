@@ -1,2 +1,2 @@
-# hakers_mode
-hakers_mode
+# hackers_mode
+
