@@ -1393,10 +1393,11 @@ scale.vertical.marks-after:not(.marks-before) slider {
 
 /* lists */
 list { background: @listBg; border:none; }
+list separator.horizontal { min-height: 0px;background:alpha(@blk, 0.4); }
 list:backdrop {}
 
 list row {}
-list row:nth-child(even) { background-color: alpha(@dar, 0.5);}
+/*list row:nth-child(even) { background-color: alpha(@dar, 0.5);}*/
 row {transition: background 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}
 row:hover {}
 row:backdrop {}
@@ -1839,16 +1840,16 @@ box.tilix-background .terminal-titlebar {border:none; background:@bg;}
   @define-color unfocused_borders rgba(13, 16, 23, 0.82);
 /* mine */
   @define-color F #11ff33;
-  @define-color F2 #FF9900;
+  @define-color F2 #11ff11;
   @define-color B #034;
   @define-color txtF #f0f0f0;
   @define-color txtB #909090;
   @define-color C #0f0f0f;
   @define-color bg #080808;
   @define-color D #999;
-  @define-color C2 #b36b00;
-  @define-color dar #075;
-  @define-color listBg alpha(#075, 0.3);
+  @define-color C2 #056;
+  @define-color dar #173;
+  @define-color listBg #010;
   @define-color hovertxt ;
   @define-color blk #000;
   @define-color wit #fff;
