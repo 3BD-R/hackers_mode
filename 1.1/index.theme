@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=hackers_mode03
+Comment=theme try to simulate cyberpunky style
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=hackers_mode03
+MetacityTheme=hackers_mode03
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=close,minimize,maximize:menu
